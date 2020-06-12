@@ -40,6 +40,7 @@ stages
 	{
 		steps
 		{
+		echo "Stage for artifact"
 		rtMavenDeployer (
                     id: 'deployer',
                     serverId: '123456789@artifactory',
