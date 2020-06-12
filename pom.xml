@@ -5,7 +5,7 @@
 	<groupId>com.nagarro.devops-tools.devops</groupId>
 	<artifactId>demosampleapplication</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-RELEASE</version>
+	<version>1.0.0</version>
 	<name>Devops Sample Application</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
