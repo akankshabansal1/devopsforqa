@@ -44,7 +44,7 @@ stages
 		rtMavenDeployer (
                     id: 'deployer',
                     serverId: '123456789@artifactory',
-                    releaseRepo: 'devopsforqa',
+                    releaseRepo: 'devopsforqa_release',
                     snapshotRepo: 'devopsforqa'
                 )
                 rtMavenRun (
