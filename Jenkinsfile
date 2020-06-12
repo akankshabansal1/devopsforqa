@@ -23,8 +23,7 @@ stages
       bat "mvn clean install"
     }
   }
-  }
-  
+	
   stage('Sonar Analysis')
   {
     steps
@@ -36,5 +35,6 @@ stages
 				}
     }
   }
+}
   
   }
