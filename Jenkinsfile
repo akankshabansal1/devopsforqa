@@ -59,6 +59,23 @@ stages
 			
 		}
 	}
+	
+	stage('Docker Build Image')
+	{
+		steps
+		{
+			
+		}
+	}
+	
+	stage('Docker Deployment-container run')
+	{
+		steps
+		{
+			
+		}
+	}	
+	
 }
   
   }
